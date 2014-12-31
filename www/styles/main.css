@@ -1,0 +1,410 @@
+/* CSS Document */
+* { word-wrap: break-word; }
+body, input, button, select, textarea { font: 12px/1.5 \5FAE\8F6F\96C5\9ED1,\5b8b\4f53,Tahoma,Arial; color: #444; }
+textarea { resize: none; }
+body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc { margin: 0; padding: 0; }
+table { empty-cells: show; border-collapse: collapse; }
+caption, th { text-align: left; font-weight: 400; }
+ul li, .xl li { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 1em; }
+em, cite, i { font-style: normal; }
+a { color: #333; text-decoration:none; }
+a:hover { text-decoration: none; }
+a img { border: none; }
+label { cursor: pointer; }
+.z { float: left; }
+.y { float: right; }
+.cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.cl { zoom: 1; }
+.fontsize{font-size:17px;}
+.hs{color:#de645b;}
+.orange{color:#db5449;}
+html, body {
+    margin: 0;
+    background-color: #efefef;
+    font-family: sans-serif;
+}
+.wrapper {
+    width: 640px;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+#loginWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding-top: 200px;
+}
+#nickWrapper {
+    display: none;
+}
+.banner {
+    height: 80px;
+    width: 100%;
+}
+.banner p {
+    float: left;
+    display: inline-block;
+}
+.controls {
+    height: 86px;
+    position: relative;
+}
+#historyMsg {
+    height: 500px;
+    background-color: #fff;
+    overflow: auto;
+    padding: 2px;
+}
+#historyMsg img {
+    max-width: 99%;
+}
+.timespan {
+    color: #ddd;
+}
+.items {
+    height: 30px;
+    width: 280px;
+    margin: 15px 0;
+    float: right;
+}
+#colorStyle {
+    width: 45px;
+    height: 45px;
+    margin-right: 21px;
+    margin-top: 6px;
+    border: none;
+    padding: 0;
+    float: left;
+    cursor: pointer;
+}
+.selectArea {
+    width: 640px;
+    height: 333px;
+    margin: 0px auto;
+    background-color: #FFF;
+}
+/*custom the file input*/
+
+.imageLable {
+    float: left;
+    position: relative;
+    width: 56px;
+    height: 45px;
+    margin-right: 21px;
+    margin-top: 7px;
+    background: url(../content/add_image.png)  no-repeat ;
+    cursor: pointer;
+}
+#clearBtn{
+    cursor: pointer;
+}
+#sendImage {
+    position: absolute;
+    width: 52px;
+    height: 45px;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+/*end custom file input*/
+
+#messageInput {
+    width: 280px;
+    max-width: 280px;
+    height: 37px;
+    max-height: 37px;
+    margin: 20px 3px 0px 20px;
+    float: left;
+    background: url("../content/input_bcg.png") no-repeat;
+}
+#sendBtn {
+    width: 40px;
+    height: 20px;
+    float: left;
+    margin: 33px 0;
+    font-size: 2px;
+}
+#emojiWrapper {
+    display: none;
+    width: 500px;
+    bottom: 90px;
+    position: absolute;
+    background-color: #aaa;
+    box-shadow: 0 0 10px #555;
+}
+#emojiWrapper img {
+    margin: 2px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+}
+#emojiWrapper img:hover {
+    background-color: blue;
+}
+#emojis{
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-right: 21px;
+    cursor: pointer;
+}
+.emoji{
+    display: inline;
+}
+footer {
+    text-align: center;
+}
+#result{
+	text-align: center;
+	margin-left: 600px;
+}
+#result table{
+	margin-left: 600px;
+}
+#slt0{
+	margin-left: 200px;
+}
+#slt1{
+	margin-left: 43px;
+}
+.room{
+	float:left;
+	width: 278px;
+   	background-color: #ffffff;
+   	margin: 23px 23px;   	
+}
+.room:hover {
+	cursor: pointer;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+}
+.roomHead{
+	width: 278px;
+   	height: 6px;
+   	background: url(../content/room-hbcg.png) ;
+}
+.roomAward{
+	width: 278px;
+   	height: 100px;
+   	background-color: #5ACBF7 ;
+   	text-align: center;
+}
+.roomAward span{
+	float:left;
+	margin-top:21px;
+	width: 278px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 32px;
+	color: #ffffff;
+}
+.roomStatus{
+	float:left;
+	width: 278px;
+   	background-color: #ffffff ;
+}
+.rStatus{
+	float:left;
+	width: 250px;
+   	margin: 56px 14px 22px 14px;
+}
+.okay{
+	float:left;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	display:inline-block;
+   	width: 46px;
+   	height: 46px;
+	background: url(../content/answer_ok.png) no-repeat;
+}
+.wait{
+	float:left;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	display:inline-block;
+   	width: 46px;
+   	height: 46px;	
+	background: url(../content/answer_wait.png) no-repeat;
+}
+.none{
+	float:left;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	display:inline-block;
+   	width: 46px;
+   	height: 46px;	
+	background-color: #dddddd;
+}
+
+#gameHead {
+            background-color: #5ACBF7;
+            width: 640px;
+            height: 168px;
+            margin: 0 auto;
+}
+.exitBtn {
+            float: right;
+            margin: 17px 10px 0 0;
+            width: 98px;
+            height: 58px;
+            text-align: center;
+            background: url(../content/exit.png) no-repeat;
+}
+#exit{
+            color: #fff;
+            font-size: 30px;
+            cursor: pointer;
+}
+.count{
+            font-size: 72px;
+            color: #fff;
+            font-family: cursive;
+}
+#colorRing{
+            float: left;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 54px;
+            width: 115px;
+            height: 115px;
+            background: url(../content/coloring.png) no-repeat;
+}
+.exitAndNums{
+           float: right;
+           width: 165px;
+           height: 100%;
+}
+.nums{
+           font-size: 32px;
+           color: #ff3434;
+           font-family: cursive;
+}
+.answerOk{
+           font-size: 20px;
+           color: #ffffff;
+           font-family: cursive;
+}
+.numText{
+           float:right; 
+           margin-top: 27px;
+           margin-right: 19px; 
+}
+#status{
+           float: left;
+           color: #c0c0c0;
+           font-size: 22px;
+           width: 100%;
+           margin: 41px 0 22px 20px;
+}
+#selectBtn{
+           float: left;
+           width: 100%;
+           height: auto;
+           margin-top: 30px;
+}
+#selectBtn span{
+        background: url(../content/select_btn.png) no-repeat;
+        width: 80px;
+        height: 80px;
+        font-family: inherit;
+        color: #fff;
+        padding: 15px 27px;
+        font-size: 51px;
+        cursor: pointer;
+}
+#gameResult{
+    float: left;
+    margin-left: 20px;
+    width: 100%;
+}
+.ans_no{
+	float:left;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	display:inline-block;
+   	width: 54px;
+	background: url(../content/ans_no.png) no-repeat;
+    text-align: center;
+    color: #ff2c2c;
+    font-size: 31px;
+    padding: 18px 0px;
+}
+.ans_yes{
+	float:left;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	display:inline-block;
+   	width: 54px;
+	background: url(../content/ans_yes.png) no-repeat;
+        text-align: center;
+    color: #23d727;
+    font-size: 31px;
+    padding: 18px 0px;
+}
+.ans_wait{
+	float:left;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	display:inline-block;
+   	width: 54px;
+    height: 54px;
+	background: url(../content/ans_wait.jpg) no-repeat;
+}
+.me{
+    float: right;
+    background: url(../content/talk_blog_me.png) no-repeat;
+    width: 200px;
+    height: 80px;
+    text-align:left;
+    padding: 3px;
+    font-size: 14px;
+}
+.system{
+    float: left;
+    background: url(../content/talk_blog_system.png) no-repeat;
+    width: 175px;
+    height: 52px;
+    text-align:left;
+    padding: 3px;
+    font-size: 14px;
+}
+.other{
+    float: left;
+    background: url(../content/other.png) no-repeat;
+    width: 383px;
+    height: 100px;
+    text-align: left;
+    padding: 4px 0 0 20px;
+    font-size: 14px;  
+}
+.oneMsg{
+    width: 100%;
+    float: left;
+}
+.oneMsg a{
+    float: left;
+    padding: 13px 10px;
+}
+.oneMsg span{
+    float: left;
+    padding: 13px 10px;
+}
+.twoMsg{
+    width: 100%;
+    float: right;
+}
+.twoMsg a{
+    float: right;
+    padding: 23px 10px;
+}
+.twoMsg span{
+    float: right;
+    padding: 23px 10px;
+}

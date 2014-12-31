@@ -1,0 +1,18 @@
+1701 error Error: ENOENT, lstat 'G:\HiChat\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\benchmark.html'
+1702 error If you need help, you may report this *entire* log,
+1702 error including the npm and node versions, at:
+1702 error     <http://github.com/npm/npm/issues>
+1703 error System Windows_NT 6.1.7601
+1704 error command "G:\\NodeJS\\njs\\\\node.exe" "G:\\NodeJS\\njs\\node_modules\\npm\\bin\\npm-cli.js" "install" "socket.io"
+1705 error cwd G:\HiChat
+1706 error node -v v0.10.34
+1707 error npm -v 1.4.28
+1708 error path G:\HiChat\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\benchmark.html
+1709 error fstream_path G:\HiChat\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\benchmark.html
+1710 error fstream_type File
+1711 error fstream_class FileWriter
+1712 error code ENOENT
+1713 error errno 34
+1714 error fstream_stack G:\NodeJS\njs\node_modules\npm\node_modules\fstream\lib\writer.js:287:26
+1714 error fstream_stack Object.oncomplete (evalmachine.<anonymous>:108:15)
+1715 verbose exit [ 34, true ]
