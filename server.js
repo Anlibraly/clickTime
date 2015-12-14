@@ -219,7 +219,7 @@ db.open(function(err, db){
             if(err){
                 console.log(err);
             }else{ 
-				  /* for(var i=0;i<20;i++){
+				   /*for(var i=0;i<20;i++){
 					   var item = {roomId:i, maxNum:testRooms[i][0], alreadyIn:"0", award:testRooms[i][1], CODES:[], round:"1", Aroud:"0",players:[],codes:[]};
 					   collection.insert(item,{safe:true},function(err,result){
 							console.log(result);
@@ -232,8 +232,8 @@ db.open(function(err, db){
 							rooms[i].selectPlayers = [];
 						}
                    });
-                   /*
-				   collection.find({name:'Tom'},function(err,data){
+                   
+				   /*collection.find({name:'Tom'},function(err,data){
 						if(err){
 						console.log(err);
 						}else{
@@ -262,7 +262,7 @@ function refreshRooms(){
 		if(i != rooms.length ){
 			rHtm += "<li class='room' onclick=\"toRoom("+rooms[i].roomId+","+rooms[i].maxNum+")\">";
 			rHtm += "<div class='roomHead'></div>";
-			rHtm += "<div class='roomAward'><span>"+rooms[i].award+"</span><img src='../content/gift_box.png'></div>";
+			rHtm += "<div class='roomAward'><span>"+rooms[i].award+"</span><img class='gifts' src='../content/gift_box.png'></div>";
 			rHtm += "<div class='roomStatus'>";
 			rHtm += "<ul class='rStatus' id='room_"+rooms[i].roomId+"'>";
 			for(var j=0;j<=rooms[i].maxNum;j++){
