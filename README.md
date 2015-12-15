@@ -1,8 +1,7 @@
 ClickTime
 ===
  
-A online instant game built with Node.js and socket.io.
-
+A online instant game built with Node.js AngularJs and socket.io.
 
 Features
 ---
